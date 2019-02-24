@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>platincard.de</title>
+    <description>Platin Kreditkarte - finden Sie die Platinum Kreditkarte die zu Ihnen passt. Vergleichen Sie American Express, Visa und MasterCard Platinum Kreditkarten.</description>
+    <link>http://localhost:4001/</link>
+    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 24 Feb 2019 15:05:02 +0800</pubDate>
+    <lastBuildDate>Sun, 24 Feb 2019 15:05:02 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+  </channel>
+</rss>

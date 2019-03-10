@@ -9,6 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
 
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="shortcut icon" href="/favicon.png">
+
     
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
@@ -38,8 +41,6 @@
         
             .breadcrumbs{padding-left:0;margin:0;line-height:36px;list-style:none}.breadcrumbs::before,.breadcrumbs::after{display:table;content:' ';-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-ordinal-group:2;-webkit-order:1;-ms-flex-order:1;order:1}.breadcrumbs::after{clear:both}.breadcrumbs li{float:left;line-height:13px;font-size:13px;color:var(--dark-60);cursor:default}.breadcrumbs li:not(:last-child)::after{position:relative;margin:0 15px;opacity:1;content:"›";color:var(--dark-60)}.breadcrumbs a{text-decoration:none;color:var(--dark-60)}.breadcrumbs a:hover{text-decoration:underline}@media only screen and (max-width:39.9375em){.breadcrumbs li:not(:last-child){display:none}.breadcrumbs li{padding:.5rem .25rem 0 .25rem}.breadcrumbs li h1{font-size:14px;color:var(--dark-60)}}@media only screen and (min-width:40em){.breadcrumbs li h1{line-height:13px;margin:0;font-size:13px;font-weight:normal;white-space:nowrap;flex-grow:1}}
         
-
-
 
         
 
@@ -164,7 +165,9 @@
                 <div class="pure-g">
                     <div class="qm-sm-12-12 qm-lg-4-12 hero-single-product-left-wrapper">
                         <div class="hero-product-image">
-                            <a href="/zur-bank/postbank/"><amp-img src="/assets/images/postbank-platin-platinum-kreditkarte.jpg" alt="Postbank VISA Card Platinum" width="240" height="150" layout="responsive"></amp-img></a>
+                            
+                            <amp-img src="/assets/images/postbank-platin-platinum-kreditkarte.jpg" alt="Postbank VISA Card Platinum" width="240" height="150" layout="responsive"></amp-img>
+                            
                         </div>
                     </div>
                     <div class="qm-sm-12-12 qm-lg-8-12 hero-single-product-right-wrapper">
@@ -185,9 +188,9 @@
                                 <div class="hero-top-info-name">Bargeldbezug</div>
                                 <!--<div class="top-info-value"> <span class="small">Deutschland</span> </div>-->
                                 
-                                <div class="hero-top-info-value tooltip">4 %<span class="tooltiptext"><strong>Hinweis Bargeldabhebung</strong><br>4 %, mind. 5 €</span></div>
+                                <div class="hero-top-info-value tooltip">2,50 %<span class="tooltiptext"><strong>Hinweis Bargeldabhebung</strong><br>2,50 % mind. 5,00 €</span></div>
                                 
-                                <!--4 %-->
+                                <!--2,50 %-->
                                 <!--<div class="top-info-small show-for-medium"><strong></strong> </div>-->
                             </div>
 
@@ -195,8 +198,10 @@
                             <div class="qm-sm-4-12">
                                 <div class="hero-top-info-name">Sollzinsen p.a.</div>
                                 
-                                <div class="hero-top-info-value">0 %</div>
+                                <div class="hero-top-info-value">12,75 %</div>
                                 
+                                
+                                <div class="hero-top-info-small show-for-large"><strong>0,01</strong> % auf Guthaben</div>
                                 
 
                             </div>
@@ -233,7 +238,7 @@
                                     <div class="qm-sm-6-12 qm-md-12-12">
                                         <div class="pure-g">
                                             <div class="qm-sm-12-12 qm-md-6-12">
-                                                <a class="hero-single-product-button to-bank" href="/zur-bank/postbank/" target="_blank" rel="noopener nofollow">Zur Bank →</a>
+                                                
                                             </div>
                                             <div class="qm-sm-12-12 qm-md-6-12">
                                                 <!--<a class="single-product-button to-detail" href="/depot//">Mehr Details</a>-->
@@ -302,7 +307,7 @@
                                         <td>Partnerkarte</td>
                                         <td>
                                             
-                                            <svg class="no"><use xlink:href="#no"></use></svg>
+                                            <strong>79 €</strong>
                                             
                                         </td>
                                     </tr>
@@ -310,7 +315,7 @@
                                         <td>eff. Jahreszins</td>
                                         <td>
                                             
-                                            <strong>0 %</strong><br>
+                                            <strong>12,75 %</strong><br>
                                             
                                         </td>
                                     </tr>
@@ -318,7 +323,7 @@
                                         <td>Guthabenszins</td>
                                         <td>
                                             
-                                            <svg class="no"><use xlink:href="#no"></use></svg>
+                                            <strong>0,01 %</strong> p. a. für Guthaben auf dem Kreditkartenkonto
                                             
                                         </td>
                                     </tr>
@@ -348,6 +353,20 @@
                                     </tr>
                                     
 
+                                    
+                                    <tr>
+                                        <td>Bargeldlimit pro Tag</td>
+                                        <td><strong>1.000 €</strong></td>
+                                    </tr>
+                                    
+
+                                    
+                                    <tr>
+                                        <td>Bargeldlimit pro Woche</td>
+                                        <td><strong>3.000 €</strong></td>
+                                    </tr>
+                                    
+
                                     <tr>
                                         <td>Rechnungsausgleich</td>
                                         <td>3.5</td>
@@ -361,19 +380,19 @@
                                 <table class="half-width">
                                     <tr>
                                         <td>Inland</td>
-                                        <td></td>
+                                        <td>2,50% mind. 5,00 €</td>
                                     </tr>
                                     <tr>
                                         <td>Euro-Zone</td>
-                                        <td></td>
+                                        <td>2,50% mind. 5,00 €</td>
                                     </tr>
                                     <tr>
                                         <td>Fremdwährung innerhalb Europa</td>
-                                        <td></td>
+                                        <td>2,50% mind. 5,00 €</td>
                                     </tr>
                                     <tr>
                                         <td>Fremdwährung außerhalb Europa/Weltweit</td>
-                                        <td></td>
+                                        <td>2,50% mind. 5,00 €</td>
                                     </tr>
                                     
                                 </table>
@@ -382,19 +401,19 @@
                                 <table class="half-width">
                                     <tr>
                                         <td>Inland</td>
-                                        <td></td>
+                                        <td>0,00 %</td>
                                     </tr>
                                     <tr>
                                         <td>Euro-Zone</td>
-                                        <td></td>
+                                        <td>0,00 %</td>
                                     </tr>
                                     <tr>
                                         <td>Fremdwährung innerhalb Europa</td>
-                                        <td></td>
+                                        <td>1,85 %</td>
                                     </tr>
                                     <tr>
                                         <td>Fremdwährung außerhalb Europa/Weltweit</td>
-                                        <td></td>
+                                        <td>1,85 %</td>
                                     </tr>
                                     
                                 </table>
@@ -486,8 +505,9 @@
 
                                     <tr>
                                         
-                                        <td class="infotable-con">
-                                            <div class="infotable-title"><svg class="no"><use xlink:href="#no"></use></svg>Allgemein</div>
+                                        <td class="infotable-pro">
+                                            <div class="infotable-title"><svg class="yes"><use xlink:href="#yes"></use></svg>Allgemein</div>
+                                            <div class="infotable-data">Postbank Kreditkarten-Einkaufsversicherung: Versicherung gilt für alle Einkäufe ab einem Wert von 50 Euro die ganz oder teilweise mit der Postbank Karte bezahlt wurden. Der Versicherung gilt <ul><li>weltweit für Raub, Einbruchdiebstahl und Beschädigung durch Unfälle</li><li>ohne Selbstbeteiligung, für volle 30 Tage ab Kaufdatum</li><li>bis maximal 1.000 Euro je Gegenstand, 2.500 Euro je Schadenereignis und ist auf insgesamt 10.000 Euro pro Jahr und Kreditkarte begrenzt</li></div>
                                         </td>
                                         
                                     </tr>
@@ -561,8 +581,9 @@
 
                                     <tr>
                                         
-                                        <td class="infotable-con">
-                                            <div class="infotable-title"><svg class="no"><use xlink:href="#no"></use></svg>Loungezugang</div>
+                                        <td class="infotable-pro">
+                                            <div class="infotable-title"><svg class="yes"><use xlink:href="#yes"></use></svg>Loungezugang</div>
+                                            <div class="infotable-data">33,32 € pro Person und Besuch</div>
                                         </td>
                                         
                                     </tr>
@@ -628,7 +649,7 @@
 
                     <div class="bottom-button">
                         <div>
-                            <a class="hero-single-product-button to-bank" href="" target="_blank" rel="noopener nofollow">Zum Anbieter →</a>
+                            
                         </div>
                         <div>
                             <div class="share-links hide-for-print">

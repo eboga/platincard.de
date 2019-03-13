@@ -60,21 +60,66 @@
     </style>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
-
-
 </head>
 
 
 
 
     <body>
-        <style>
-    .mobile-sidebar .searchbar input {
 
-    }
+        <amp-sidebar id="sidebar-right" class="mobile-sidebar" layout="nodisplay" side="right">
+    <div class="sidebar-header">
+        <a class="sidebar-logo" href="/"><svg class="logo-b"><use xlink:href="#logo-b"></use></svg></a>
+        <div class="toggle-btns">
+            <button class="closebtn" on='tap:sidebar-right.close'>
+                <svg class="close"><use xlink:href="#close"></use></svg>
+            </button>
+        </div>
+    </div>
 
-</style>
-<header>
+    <div class="sidebar-content">
+
+        <div class="searchbar">
+            <form method="get" id="searchform" action="/search.html" target="_top">
+                <svg class="searchIcon"><use xlink:href="#search"></use></svg>
+                <input type="text" placeholder="Suchen" name="query" id="search-box" >
+            </form>
+        </div>
+
+        <div class="top">
+            <ul>
+                <li><a href="/vergleich/">Kreditkarten Vergleich</a></li>
+                <li><a href="/american-express/">American Express Platinum</a></li>
+                <li><a href="/barclaycard/">Barclaycard Platinum Double</a></li>
+                <li><a href="/deutsche-bank/">Deutsche Bank MasterCard Platin</a></li>
+                <li><a href="/netbank/">netbank MasterCard Platinum</a></li>
+                <li><a href="/postbank/">Postbank VISA Card Platinum</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Versicherungsleistungen</a></li>
+                <li><a href="#">Reisekrankenversicherung</a></li>
+                <li><a href="#">Reiserücktrittsversicherung</a></li>
+                <li><a href="#">Reisegepäckversicherung</a></li>
+                <li><a href="#">Reiseunfallversicherung</a></li>
+                <li><a href="#">Mietwagenvollkaskoversicherung</a></li>
+            </ul>
+        </div>
+        <div class="bottom">
+            <div class="share-links hide-for-print">
+    <a class="share-link share-link-facebook" target="_blank" rel="nofollow noopener" href="https://www.facebook.com/sharer/sharer.php?u=https://www.platincard.de/american-express/"><svg><use xlink:href="#facebook" /></svg></a>
+    <a class="share-link share-link-twitter" target="_blank" rel="nofollow noopener" href="https://twitter.com/intent/tweet?text=American Express Platinum&url=https://www.platincard.de/american-express/"><svg><use xlink:href="#twitter" /></svg></a>
+    <a class="share-link share-link-xing" target="_blank" rel="nofollow noopener" href="https://www.xing-share.com/app/user?op=share;sc_p=xing-share;url=https://www.platincard.de"><svg><use xlink:href="#xing" /></svg></a>
+    <a class="share-link share-link-linkedin" target="_blank" rel="nofollow noopener" href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.platincard.de/american-express/&title=American Express Platinum&summary=&source=webjeda"><svg><use xlink:href="#linkedin" /></svg></a>
+    <a class="share-link share-link-mail" href="mailto:?subject=American Express Platinum&amp;body=Check out this site https://www.platincard.de/american-express/"><svg><use xlink:href="#mail" /></svg></a>
+    <button class="share-link share-link-print" on="tap:AMP.print"><svg><use xlink:href="#print" /></svg></button>
+</div>
+
+        </div>
+    </div>
+</amp-sidebar>
+
+
+        <header>
     <div class="wrapper">
         <nav>
             <div class="pure-g">
@@ -122,67 +167,7 @@
 
             </div>
         </nav>
-        <amp-sidebar id="sidebar-right" class="mobile-sidebar" layout="nodisplay" side="right">
-            <div class="sidebar-header">
-                <a class="sidebar-logo" href="/"><svg class="logo-b"><use xlink:href="#logo-b"></use></svg></a>
-                <div class="toggle-btns">
-                    <button class="closebtn" on='tap:sidebar-right.close'>
-                        <svg class="close"><use xlink:href="#close"></use></svg>
-                    </button>
-                </div>
-            </div>
-
-            <div class="sidebar-content">
-
-                    <div class="searchbar">
-                        <form method="get" id="searchform" action="/search.html" target="_top">
-                            <svg class="searchIcon"><use xlink:href="#search"></use></svg>
-                            <input type="text" placeholder="Suchen" name="query" id="search-box" >
-                        </form>
-                    </div>
-
-                <div class="top">
-                    <ul>
-                        <li><a href="/vergleich/">Kreditkarten Vergleich</a></li>
-                        <li><a href="/american-express/">American Express Platinum</a></li>
-                        <li><a href="/barclaycard/">Barclaycard Platinum Double</a></li>
-                        <li><a href="/deutsche-bank/">Deutsche Bank MasterCard Platin</a></li>
-                        <li><a href="/netbank/">netbank MasterCard Platinum</a></li>
-                        <li><a href="/postbank/">Postbank VISA Card Platinum</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#">Versicherungsleistungen</a></li>
-                        <li><a href="#">Reisekrankenversicherung</a></li>
-                        <li><a href="#">Reiserücktrittsversicherung</a></li>
-                        <li><a href="#">Reisegepäckversicherung</a></li>
-                        <li><a href="#">Reiseunfallversicherung</a></li>
-                        <li><a href="#">Mietwagenvollkaskoversicherung</a></li>
-                    </ul>
-                </div>
-                <div class="bottom">
-                    <!--<div class="social">-->
-                        <div class="share-links hide-for-print">
-    <a class="share-link share-link-facebook" target="_blank" rel="nofollow noopener" href="https://www.facebook.com/sharer/sharer.php?u=https://www.platincard.de/american-express/"><svg><use xlink:href="#facebook" /></svg></a>
-    <a class="share-link share-link-twitter" target="_blank" rel="nofollow noopener" href="https://twitter.com/intent/tweet?text=American Express Platinum&url=https://www.platincard.de/american-express/"><svg><use xlink:href="#twitter" /></svg></a>
-    <a class="share-link share-link-xing" target="_blank" rel="nofollow noopener" href="https://www.xing-share.com/app/user?op=share;sc_p=xing-share;url=https://www.platincard.de"><svg><use xlink:href="#xing" /></svg></a>
-    <a class="share-link share-link-linkedin" target="_blank" rel="nofollow noopener" href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.platincard.de/american-express/&title=American Express Platinum&summary=&source=webjeda"><svg><use xlink:href="#linkedin" /></svg></a>
-    <a class="share-link share-link-mail" href="mailto:?subject=American Express Platinum&amp;body=Check out this site https://www.platincard.de/american-express/"><svg><use xlink:href="#mail" /></svg></a>
-    <button class="share-link share-link-print" on="tap:AMP.print"><svg><use xlink:href="#print" /></svg></button>
-</div>
-
-                    <!--</div>-->
-                </div>
-            </div>
-        </amp-sidebar>
-
     </div>
-
-
-
-
-
-
-
 </header>
 
 

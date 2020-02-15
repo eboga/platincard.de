@@ -180,7 +180,7 @@
     <div class="wrapper">
         <div class="pure-g">
   <div class="qm-sm-12-12">
-    <h1 class="page-title">Platinum Kreditkarten im Vergleich -  2019</h1>
+    <h1 class="page-title">Platinum Kreditkarten im Vergleich -  2020</h1>
     <p class="excerpt show-for-large">
       Unser Kreditkarten-Vergleich bietet Ihnen eine einfache Orientierung anhand der wichtigsten Merkmale von Kreditkarten. Finden Sie die perfekte Karte unter zahlreichen Angeboten.
     </p>
@@ -403,7 +403,7 @@
                     <!---->
                     <!---->
                     <!--<div class="ranking-box-bottom-date">-->
-                      <!--10/2019-->
+                      <!--02/2020-->
                     <!--</div>-->
                   <!--</div>-->
 
@@ -561,7 +561,7 @@
                     <!---->
                     <!---->
                     <!--<div class="ranking-box-bottom-date">-->
-                      <!--10/2019-->
+                      <!--02/2020-->
                     <!--</div>-->
                   <!--</div>-->
 
@@ -719,7 +719,7 @@
                     <!---->
                     <!---->
                     <!--<div class="ranking-box-bottom-date">-->
-                      <!--10/2019-->
+                      <!--02/2020-->
                     <!--</div>-->
                   <!--</div>-->
 
@@ -879,7 +879,7 @@
                     <!---->
                     <!---->
                     <!--<div class="ranking-box-bottom-date">-->
-                      <!--10/2019-->
+                      <!--02/2020-->
                     <!--</div>-->
                   <!--</div>-->
 
@@ -1039,7 +1039,7 @@
                     <!---->
                     <!---->
                     <!--<div class="ranking-box-bottom-date">-->
-                      <!--10/2019-->
+                      <!--02/2020-->
                     <!--</div>-->
                   <!--</div>-->
 
@@ -1203,7 +1203,7 @@
                     <!---->
                     <!---->
                     <!--<div class="ranking-box-bottom-date">-->
-                      <!--10/2019-->
+                      <!--02/2020-->
                     <!--</div>-->
                   <!--</div>-->
 
@@ -1299,7 +1299,7 @@
     <button class="share-link share-link-print" on="tap:AMP.print"><svg><use xlink:href="#print" /></svg></button>
 </div>
 
-    <div class="footer-copyright">&copy; 2019 platincard.de</div>
+    <div class="footer-copyright">&copy; 2020 platincard.de</div>
   </div>
 </footer>
 
@@ -1307,7 +1307,12 @@
     <script type="application/json">
         {
             "vars": {
-                "account": "UA-72246105-1"
+                "account": "UA-72246105-1",
+                "config": {
+                    "AW-681002542": {
+                        "groups": "default"
+                    }
+                }
             },
             "triggers": {
                 "trackPageview": {
@@ -1324,6 +1329,23 @@
                         "eventCategory": "AMP Scroll Depth",
                         "eventAction": "Scrolled",
                         "eventLabel": "${verticalScrollBoundary}%"
+                    }
+                },
+                "C_EeD2mY71xKM": {
+                    "on": "click",
+                    "request": "event",
+                    "selector": "a.to-bank",
+                    "vars": { "event_name": "conversion",
+                        "send_to": ["AW-681002542/DWBiCPrC0bgBEK6M3cQC"]
+                    }
+                },
+                "Click-Out to Bank": {
+                    "on": "click",
+                    "selector": "a.to-bank",
+                    "request": "event",
+                    "vars": {
+                        "eventCategory": "Click to Bank",
+                        "eventAction": ""
                     }
                 }
             }

@@ -4,12 +4,12 @@ echo "* Build site"
 jekyll build > /dev/null
 
 echo "* Clean deployment dir"
-cd /home/boga/projects/z-builds/www.platincard.de/
+cd /Users/boga/Projects/z-builds/www.platincard.de
 shopt -u dotglob
 rm -rf *
 
 echo "* Copy files"
-cp -R /home/boga/projects/x-platincard.de/_site/* . > /dev/null
+cp -R /Users/boga/Projects/x-platincard.de/_site/* . > /dev/null
 
 echo "* Add untracked files"
 git add .
